@@ -89,11 +89,28 @@
       valentineQuestion.textContent = "IM SO LUCKYY YAYYY I LOVE YOUUU"; // Change the question text
       responseButtons.style.display = 'none'; // Hide both buttons
       confetti(); // Trigger confetti animation
+      document.getElementById("gifts").style.display = "block";
     });
   </script>  
+  <div id="gifts" style="display:none; margin-top:40px; text-align:center;">
+
+<h2>Choose Your Gift 🎁</h2>
+
+<div style="font-size:60px; display:flex; justify-content:center; gap:40px; margin-top:20px;">
+
+<div onclick="window.open('YourPPT.pdf', '_blank')" style="cursor:pointer;">🎁</div>
+
+<div onclick="window.open('Youletter.pdf', '_blank')" style="cursor:pointer;">💌</div>
+
+<div onclick="window.open('https://digibouquet.vercel.app/bouquet/b4d8dbd2-668d-497b-aeb0-9256b6ac7d79', '_blank')" style="cursor:pointer;">💐</div>
+
+</div>
+
+</div>
 </body>
 
 </html>
+
 
 
 
